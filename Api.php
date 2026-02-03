@@ -5,7 +5,6 @@ abstract class Api
     protected $method = ''; //GET|POST|PUT|DELETE
 
     public $requestUri = [];
-    public $requestParams = []; //поля: title, description, status
 
     protected $action = ''; //Название метода для выполнения
 
@@ -17,7 +16,6 @@ abstract class Api
 
         //print_r($_SERVER['REQUEST_URI']);
         $this->requestUri = explode('/', trim($_SERVER['REQUEST_URI'],'/'));
-        $this->requestParams = $_REQUEST;
 
         //Определение метода
         //print_r($_SERVER['REQUEST_METHOD']);
