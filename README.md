@@ -1,4 +1,4 @@
-Среда curl -X PUT -d '{"description":"NE2222W Title PUT333","title":"new text put3333"}' -H "Content-Type: application/json" localhost:8000/tasks/1
+Среда https://github.com/nanoninja/docker-nginx-php-mysql.git
 Настройки БД - Db.php
 Установка БД - installDB.php
     //GET localhost:8000/tasks/ - Все задачи
